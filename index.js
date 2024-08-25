@@ -48,7 +48,7 @@ const server = app.listen(process.env.PORT,()=>{
     console.log('listen '+ process.env.PORT );
 })
 
-// test
+// test 2 
 const io = socketIo(server, {
     cors: {
       origin: ["http://localhost:3000", "http://localhost:2002", "https://frontend-aabg.onrender.com"],
